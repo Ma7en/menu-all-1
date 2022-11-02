@@ -1,0 +1,108 @@
+
+/* 
+&&&& samll 
+
+*/
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+
+/* menu 1 */
+    .menu-1 .nav {
+        position: absolute;
+        left: 0;
+        background-color: var(--container-color);
+        box-shadow: 1px 0 4px hsla(288, 81%, 49%, .15);
+        width: 84px;
+        height: 100vh;
+        padding: 2rem;
+        transition: var(--main-transition);
+        -webkit-transition: var(--main-transition);
+        -moz-transition: var(--main-transition);
+        -ms-transition: var(--main-transition);
+        -o-transition: var(--main-transition);
+    }
+
+    .menu-1 .nav__logo {
+        display: flex;
+    }
+
+    .menu-1 .nav__logo i {
+        font-size: 1.25rem;
+        color: var(--first-color);
+    }
+
+    .menu-1 .nav__logo-name {
+        color: var(--title-color);
+        font-weight: 600;
+    }
+
+    .menu-1 .nav__logo,
+    .menu-1 .nav__link {
+        align-items: center;
+        column-gap: 1rem;
+    }
+
+    .menu-1 .nav__list {
+        display: grid;
+        row-gap: 2.5rem;
+        margin-top: 10.5rem;
+    }
+
+    .menu-1 .nav__content {
+        overflow: hidden;
+        height: 100%;
+    }
+    
+/* display: grid;
+place-items: center;
+top: 2rem; */
+
+    .menu-1 .nav__toggle {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: var(--title-color);
+        color: #fff;
+        font-size: 1.20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: -10px;
+        cursor: pointer;
+        transition: var(--main-transition);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        -webkit-transition: var(--main-transition);
+        -moz-transition: var(--main-transition);
+        -ms-transition: var(--main-transition);
+        -o-transition: var(--main-transition);
+}
+
+
+
+/* menu 6 */
+    .menu-6 .menu_6 form {
+        display: none;
+    }
+
+
+
+/* menu  */
+
+
+
+
+
+
+
+
+
+
+}
+
